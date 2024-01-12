@@ -1,0 +1,47 @@
+.container {
+    text-align: center;
+    margin-top: 34px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 34px;
+    border-radius: 21px;
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 23px;
+    height: 90px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 2px;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.calculator {
+    display: inline-block;
+    background-color: rgb(79, 78, 69);
+    border-radius: 23px;
+    padding: 20px;
+    width: 459px;
+    margin: auto;
+}
+
+button.operator {
+    background-color: #f4f4f4;
+}
+
+/* Center the Calculate button */
+button.calculate {
+    width: 100%;
+}
